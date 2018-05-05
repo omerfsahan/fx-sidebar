@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald:300&subset=latin-ext");
+/* Root Colors */
+/* Heights */
+body {
+  font-family: "Oswald", sans-serif; }
+
+.fx-sidebar {
+  /* Sidebar */
+  padding: 6px 4px;
+  position: fixed;
+  background: #FFF;
+  font-size: 18px;
+  border: 1px solid #FFF;
+  width: 28px;
+  height: 100vh;
+  box-shadow: -1px 0 5px #333;
+  /* Root colors */
+  /* Content */ }
+  .fx-sidebar .red {
+    color: #dd0031 !important; }
+  .fx-sidebar .green {
+    color: #057c21 !important; }
+  .fx-sidebar .purple {
+    color: #92278f !important; }
+  .fx-sidebar .orange {
+    color: #e44d26 !important; }
+  .fx-sidebar .blue {
+    color: #0072bc !important; }
+  .fx-sidebar .l-blue {
+    color: #18bcee !important; }
+  .fx-sidebar .dark {
+    color: #272727 !important; }
+  .fx-sidebar .black {
+    color: #000 !important; }
+  .fx-sidebar .fb {
+    color: #3B5998 !important; }
+  .fx-sidebar .ins {
+    color: #CD235C !important; }
+  .fx-sidebar .tw {
+    color: #00ACED !important; }
+  .fx-sidebar .bg-red {
+    background: #dd0031 !important; }
+  .fx-sidebar .bg-green {
+    background: #057c21 !important; }
+  .fx-sidebar .bg-purple {
+    background: #92278f !important; }
+  .fx-sidebar .bg-orange {
+    background: #e44d26 !important; }
+  .fx-sidebar .bg-blue {
+    background: #0072bc !important; }
+  .fx-sidebar .bg-l-blue {
+    background: #18bcee !important; }
+  .fx-sidebar .bg-dark {
+    background: #272727 !important; }
+  .fx-sidebar .bg-black {
+    background: #000 !important; }
+  .fx-sidebar .bg-fb {
+    background: #3B5998 !important; }
+  .fx-sidebar .bg-ins {
+    background: #CD235C !important; }
+  .fx-sidebar .bg-tw {
+    background: #00ACED !important; }
+  .fx-sidebar .fx-table-content {
+    padding-top: 18px; }
+  .fx-sidebar .fx-table-content li span {
+    line-height: 1.5em;
+    text-transform: capitalize;
+    margin-top: -35px;
+    margin-left: -6px;
+    white-space: nowrap;
+    left: -150px;
+    transition: 0.3s all;
+    background-color: #333;
+    padding: 8px 16px 8px 16px;
+    border-bottom-right-radius: 40px;
+    border-top-right-radius: 20px;
+    color: #FFF !important;
+    position: absolute; }
+  .fx-sidebar .fx-table-content li:before {
+    content: "\2022";
+    font-size: 44px;
+    display: block;
+    text-align: center;
+    cursor: pointer; }
+  .fx-sidebar li:hover span {
+    left: 0;
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */

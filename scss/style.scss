@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300&subset=latin-ext');
+
+$oswald: 'Oswald', sans-serif;
+
+/* Root Colors */
+$white: #FFF; $red: #dd0031; 
+$green: #057c21; $orange: #e44d26; 
+$blue: #0072bc; $light-blue: #18bcee; 
+$dark: #272727; $purple: #92278f;
+$shadow: #333; $black: #000;
+$fb:#3B5998; $tw:#00ACED;
+$ins:#CD235C;
+
+
+/* Heights */
+$best-vh: 100vh;
+$mid-vh: 50vh;
+$small-vh: 25vh;
+
+
+body {
+    font-family: $oswald;
+}
+
+
+.fx-sidebar {
+
+/* Sidebar */
+    padding: 6px 4px;
+    position: fixed;
+    background: $white;
+    font-size: 18px;
+    border: 1px solid $white;
+    width: 28px;
+    height: $best-vh;
+    box-shadow: -1px 0 5px $shadow;
+
+
+
+/* Root colors */
+      .red { color: $red !important;}
+      .green {color: $green !important;}
+      .purple {color: $purple !important;}
+      .orange {color: $orange !important; }
+      .blue { color: $blue !important;}
+      .l-blue { color: $light-blue !important;}
+      .dark {color: $dark !important;}
+      .black {color: $black !important;}
+      .fb {color: $fb !important;}
+      .ins {color: $ins !important;}
+      .tw {color: $tw !important;}
+      
+      .bg-red { background: $red !important;}
+      .bg-green {background: $green !important;}
+      .bg-purple {background: $purple !important;}
+      .bg-orange {background: $orange !important; }
+      .bg-blue { background: $blue !important;}
+      .bg-l-blue { background: $light-blue !important;}
+      .bg-dark {background: $dark !important;}
+      .bg-black {background: $black !important;}
+      .bg-fb {background: $fb !important;}
+      .bg-ins {background: $ins !important;}
+      .bg-tw {background: $tw !important;}
+      
+
+
+      .fx-table-content {
+          padding-top: 18px;
+      }
+      /* Content */
+    .fx-table-content li span {
+
+      line-height: 1.5em;
+      text-transform: capitalize;
+      margin-top: -35px;
+      margin-left: -6px;
+      white-space: nowrap;
+      left: -150px;
+      transition: 0.3s all;
+      background-color: #333;
+      padding: 8px 16px 8px 16px;
+      border-bottom-right-radius: 40px;
+      border-top-right-radius: 20px;
+      color: $white !important;
+      position: absolute;
+
+    }
+
+    .fx-table-content li:before {
+        content: "\2022";
+        font-size: 44px;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+      }
+
+              
+      li:hover span {
+        left: 0;
+        cursor: pointer;
+      }
+  }
